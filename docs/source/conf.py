@@ -10,7 +10,7 @@ import sys
 
 project = "SMTB-2024-Lab-11"
 copyright = "2024, Daniel"
-author = "Daniel"
+author = ""
 release = "0"
 
 sys.path.insert(0, os.path.abspath("../../"))
