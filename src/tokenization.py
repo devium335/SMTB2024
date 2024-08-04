@@ -34,7 +34,7 @@ def train_tokenizer(
         vocab_size (int): The size of the vocabulary. Default is 5000.
 
     Returns:
-        transformers.PreTrainedTokenizerFast: The trained tokenizer.
+        transformers.PreTrainedTokenizerFast | charactertokenizer.CharacterTokenizer: The trained tokenizer.
     """
     directory = os.path.dirname(output_file_directory)
     if not os.path.exists(directory):

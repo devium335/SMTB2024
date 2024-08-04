@@ -15,9 +15,9 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
-   charactertokenizer
+   pretrain
+   train
    data
    model
-   pretrain
    tokenization
-   train
+   charactertokenizer
